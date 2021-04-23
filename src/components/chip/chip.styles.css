@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+.chip {
+    background:rgba(102, 153, 255, 0.2);
+    border-radius: 12px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #050038;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 8px;
+    margin: 2px 4px;
+    outline: 0;
+}
+
+.chipInvalid {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 2px 4px;
+    line-height: 23px;
+    height: 23px;
+    border-bottom: 1px dashed #D92929;
+}
+
+.cross {
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}

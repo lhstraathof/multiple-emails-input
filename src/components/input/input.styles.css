@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+.input {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #050038;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    outline: 0;
+    margin: 2px 4px;
+    padding: 0;
+    border: none;
+    flex: 1;
+}
+
+::placeholder {
+    color: #C3C2CF;
+}
