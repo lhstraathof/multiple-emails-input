@@ -9,7 +9,7 @@
   <p align="center">
     MeiMei: A simple easy to use vanilla JavaScript library for creating input fields that accept multiple email addresses.
     <br />
-    <a href="https://lhstraathof.github.io/multiple-emails-input/">View Demo</a>
+    <a href="https://lhstraathof.github.io/multiple-emails-input/index.html">View Demo</a>
     ·
     <a href="https://github.com/lhstraathof/multiple-emails-input/issues">Report Bug</a>
   </p>
@@ -158,7 +158,7 @@ It correctly bundles Typescript in production mode and optimizes the build.
 
 ## Example
 
-To see the live demo, go to [https://lhstraathof.github.io/multiple-emails-input/](https://lhstraathof.github.io/multiple-emails-input/)
+To see the live demo, go to [https://lhstraathof.github.io/multiple-emails-input/](https://lhstraathof.github.io/multiple-emails-input/index.html)
 
 <!-- TODO -->
 
