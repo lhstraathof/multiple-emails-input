@@ -195,87 +195,6 @@ module.exports = function cssWithMappingToString(item) {
 
 /***/ }),
 
-/***/ 716:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(379);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_box_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(65);
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_box_styles_css__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z, options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_box_styles_css__WEBPACK_IMPORTED_MODULE_1__/* .default.locals */ .Z.locals || {});
-
-/***/ }),
-
-/***/ 177:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(379);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_chip_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(919);
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_chip_styles_css__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z, options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_chip_styles_css__WEBPACK_IMPORTED_MODULE_1__/* .default.locals */ .Z.locals || {});
-
-/***/ }),
-
-/***/ 839:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(379);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_input_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(792);
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_input_styles_css__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z, options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_node_modules_postcss_loader_dist_cjs_js_input_styles_css__WEBPACK_IMPORTED_MODULE_1__/* .default.locals */ .Z.locals || {});
-
-/***/ }),
-
 /***/ 379:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -557,450 +476,6 @@ module.exports = function (list, options) {
 
 module.exports = "<svg viewBox=\"0 0 8 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 0.8L7.2 0L4 3.2L0.8 0L0 0.8L3.2 4L0 7.2L0.8 8L4 4.8L7.2 8L8 7.2L4.8 4L8 0.8Z\" fill=\"#050038\"></path></svg>"
 
-/***/ }),
-
-/***/ 964:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Box = void 0;
-var components_1 = __webpack_require__(740);
-var box_styles_css_1 = __importDefault(__webpack_require__(716));
-var Box = /** @class */ (function () {
-    function Box() {
-        var optionalProps = components_1.options.getProps();
-        var theme = optionalProps.theme && optionalProps.theme.box ? optionalProps.theme.box : box_styles_css_1.default.box;
-        this.ref = null;
-        this.render(theme);
-    }
-    Box.createMarkup = function (theme) {
-        var el = document.createElement('div');
-        el.classList.add(theme);
-        return el;
-    };
-    Box.prototype.render = function (theme) {
-        var markup = Box.createMarkup(theme);
-        this.ref = markup;
-        return markup;
-    };
-    return Box;
-}());
-exports.Box = Box;
-
-
-/***/ }),
-
-/***/ 993:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Box = void 0;
-var box_1 = __webpack_require__(964);
-Object.defineProperty(exports, "Box", ({ enumerable: true, get: function () { return box_1.Box; } }));
-
-
-/***/ }),
-
-/***/ 33:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Chip = void 0;
-var components_1 = __webpack_require__(740);
-var utils_1 = __webpack_require__(928);
-var chip_styles_css_1 = __importDefault(__webpack_require__(177));
-var cross_svg_1 = __importDefault(__webpack_require__(402));
-var Chip = /** @class */ (function () {
-    function Chip(text, isValidEmail, remove) {
-        var optionalProps = components_1.options.getProps();
-        var themeChip = [optionalProps.theme && optionalProps.theme.chip ? optionalProps.theme.chip : chip_styles_css_1.default.chip];
-        var themeCross = optionalProps.theme && optionalProps.theme.cross ? optionalProps.theme.cross : chip_styles_css_1.default.cross;
-        if (!isValidEmail) {
-            themeChip.push(optionalProps.theme && optionalProps.theme.chipInvalid ? optionalProps.theme.chipInvalid : chip_styles_css_1.default.chipInvalid);
-        }
-        this.ref = null;
-        this.props = {
-            text: text,
-            remove: remove,
-            themeChip: themeChip,
-            themeCross: themeCross,
-        };
-        this.render();
-    }
-    Chip.prototype.createMarkup = function () {
-        var _a;
-        var props = this.props;
-        var themeChip = props.themeChip, themeCross = props.themeCross, text = props.text;
-        var el = document.createElement('div');
-        var content = document.createTextNode(text);
-        var icon = utils_1.renderSVG(cross_svg_1.default);
-        (_a = el.classList).add.apply(_a, themeChip);
-        el.setAttribute('role', 'button');
-        el.setAttribute('tabindex', '-1');
-        el.append(content);
-        icon.classList.add(themeCross);
-        el.append(icon);
-        return { el: el, icon: icon };
-    };
-    Chip.prototype.render = function () {
-        var markup = this.createMarkup();
-        this.ref = markup.el;
-        this.bindEvents(markup.icon);
-    };
-    Chip.prototype.bindEvents = function (target) {
-        var _this = this;
-        var props = this.props;
-        var remove = props.remove;
-        if (this.ref && remove) {
-            target.addEventListener('click', function () { return remove(_this.ref); });
-        }
-    };
-    return Chip;
-}());
-exports.Chip = Chip;
-
-
-/***/ }),
-
-/***/ 984:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Chip = void 0;
-var chip_1 = __webpack_require__(33);
-Object.defineProperty(exports, "Chip", ({ enumerable: true, get: function () { return chip_1.Chip; } }));
-
-
-/***/ }),
-
-/***/ 647:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CreateMeiMei = void 0;
-var components_1 = __webpack_require__(740);
-var utils_1 = __webpack_require__(928);
-var CreateMeiMei = /** @class */ (function () {
-    function CreateMeiMei(target) {
-        this.ref = null;
-        this.inputFieldRef = null;
-        this.optionalProps = components_1.options.getProps();
-        this.entryList = [];
-        this.remove = this.removeEntry.bind(this);
-        this.add = this.addEntry.bind(this);
-        this.render(target);
-    }
-    CreateMeiMei.prototype.render = function (target) {
-        var box = new components_1.Box();
-        var inputField = new components_1.Input();
-        if (box.ref && inputField.ref) {
-            target.appendChild(box.ref);
-            box.ref.appendChild(inputField.ref);
-            this.ref = box.ref;
-            this.inputFieldRef = inputField.ref;
-            this.bindEvents();
-        }
-    };
-    CreateMeiMei.prototype.addEntry = function (value) {
-        if (!value)
-            return;
-        var isValidEmail = utils_1.validateEmail(value);
-        var emailChip = new components_1.Chip(value, isValidEmail, this.remove);
-        if (emailChip.ref && this.ref && this.inputFieldRef) {
-            // add new entry before input field
-            this.ref.insertBefore(emailChip.ref, this.inputFieldRef);
-            // add new entry to entryList
-            this.entryList.push({ entry: emailChip.ref, isValidEmail: isValidEmail, text: value });
-            // Scroll wrapping box to bottom when max-height is reached
-            this.ref.scrollTop = this.ref.scrollHeight;
-            // clear input field after adding entries
-            this.inputFieldRef.value = '';
-            // run optional function
-            return this.optionalProps && this.optionalProps.onAddEntry && this.optionalProps.onAddEntry();
-        }
-    };
-    CreateMeiMei.prototype.removeEntry = function (target) {
-        if (target) {
-            // remove entry from EntryList
-            var newEntryList = this.entryList.filter(function (entry) { return entry.entry !== target; });
-            this.entryList = newEntryList;
-            // remove target from box
-            target.remove();
-            // run optional function
-            return this.optionalProps && this.optionalProps.onRemoveEntry && this.optionalProps.onRemoveEntry();
-        }
-    };
-    CreateMeiMei.prototype.bindEvents = function () {
-        var _this = this;
-        var _a = this, ref = _a.ref, inputFieldRef = _a.inputFieldRef;
-        if (ref) {
-            ref.addEventListener('click', function (e) { return _this.handleClick(e); });
-        }
-        if (inputFieldRef) {
-            inputFieldRef.addEventListener('keypress', function (e) { return _this.handleKeyPress(e); });
-            inputFieldRef.addEventListener('keydown', function (e) { return _this.handleKeyDown(e); });
-            inputFieldRef.addEventListener('focusout', function (e) { return _this.handleFocusOut(e); });
-            inputFieldRef.addEventListener('paste', function (e) { return _this.handlePaste(e); });
-        }
-    };
-    CreateMeiMei.prototype.handleClick = function (e) {
-        e.preventDefault();
-        if (e.target === this.ref && this.inputFieldRef) {
-            this.inputFieldRef.focus();
-        }
-    };
-    CreateMeiMei.prototype.handleKeyPress = function (e) {
-        if (e.code === 'Enter' || e.code === 'Comma') {
-            e.preventDefault();
-            this.addEntry(e.target.value);
-        }
-    };
-    CreateMeiMei.prototype.handleKeyDown = function (e) {
-        if (e.code === 'Backspace' && e.target.value === '' && this.entryList.length > 0) {
-            e.preventDefault();
-            var lastEntry = this.entryList[this.entryList.length - 1].entry;
-            this.removeEntry(lastEntry);
-        }
-    };
-    CreateMeiMei.prototype.handleFocusOut = function (e) {
-        e.preventDefault();
-        this.addEntry(e.target.value);
-    };
-    CreateMeiMei.prototype.handlePaste = function (e) {
-        var _this = this;
-        // Stop data actually being pasted into input
-        e.stopPropagation();
-        e.preventDefault();
-        // Get pasted data via clipboard API
-        var clipboardData = e.clipboardData || window.clipboardData;
-        var pastedData = clipboardData.getData('Text');
-        // Split pasted data in chunks on comma and space
-        var chunks = pastedData.split(/[ ,]+/).filter(function (item) { return item; });
-        // Add new entries
-        if (chunks && chunks.length > 0) {
-            chunks.forEach(function (chunk) { return _this.addEntry(chunk); });
-        }
-    };
-    return CreateMeiMei;
-}());
-exports.CreateMeiMei = CreateMeiMei;
-
-
-/***/ }),
-
-/***/ 959:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CreateMeiMei = void 0;
-var createMeiMei_1 = __webpack_require__(647);
-Object.defineProperty(exports, "CreateMeiMei", ({ enumerable: true, get: function () { return createMeiMei_1.CreateMeiMei; } }));
-
-
-/***/ }),
-
-/***/ 740:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Input = exports.Chip = exports.Box = exports.CreateMeiMei = exports.options = void 0;
-var optionalProps_1 = __webpack_require__(932);
-Object.defineProperty(exports, "options", ({ enumerable: true, get: function () { return optionalProps_1.options; } }));
-var createMeiMei_1 = __webpack_require__(959);
-Object.defineProperty(exports, "CreateMeiMei", ({ enumerable: true, get: function () { return createMeiMei_1.CreateMeiMei; } }));
-var box_1 = __webpack_require__(993);
-Object.defineProperty(exports, "Box", ({ enumerable: true, get: function () { return box_1.Box; } }));
-var chip_1 = __webpack_require__(984);
-Object.defineProperty(exports, "Chip", ({ enumerable: true, get: function () { return chip_1.Chip; } }));
-var input_1 = __webpack_require__(547);
-Object.defineProperty(exports, "Input", ({ enumerable: true, get: function () { return input_1.Input; } }));
-
-
-/***/ }),
-
-/***/ 547:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Input = void 0;
-var input_1 = __webpack_require__(69);
-Object.defineProperty(exports, "Input", ({ enumerable: true, get: function () { return input_1.Input; } }));
-
-
-/***/ }),
-
-/***/ 69:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Input = void 0;
-var components_1 = __webpack_require__(740);
-var input_styles_css_1 = __importDefault(__webpack_require__(839));
-var Input = /** @class */ (function () {
-    function Input() {
-        var optionalProps = components_1.options.getProps();
-        var theme = optionalProps.theme && optionalProps.theme.input ? optionalProps.theme.input : input_styles_css_1.default.input;
-        this.ref = null;
-        this.props = {
-            placeholder: optionalProps.placeholder,
-            theme: theme,
-        };
-        this.render();
-    }
-    Input.prototype.createMarkup = function () {
-        var el = document.createElement('input');
-        var placeholder = this.props.placeholder || 'add more people...';
-        el.classList.add(this.props.theme);
-        el.setAttribute('type', 'email');
-        el.setAttribute('placeholder', placeholder);
-        return el;
-    };
-    Input.prototype.render = function () {
-        var markup = this.createMarkup();
-        this.ref = markup;
-    };
-    return Input;
-}());
-exports.Input = Input;
-
-
-/***/ }),
-
-/***/ 932:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.options = void 0;
-var optionalProps_1 = __webpack_require__(903);
-Object.defineProperty(exports, "options", ({ enumerable: true, get: function () { return optionalProps_1.options; } }));
-
-
-/***/ }),
-
-/***/ 903:
-/***/ (function(__unused_webpack_module, exports) {
-
-"use strict";
-
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.options = void 0;
-var defaultProps = {
-    placeholder: 'add more people...',
-    // onAddEntry: () => console.log('add'),
-    // onRemoveEntry: () => console.log('remove'),
-};
-var Options = /** @class */ (function () {
-    function Options() {
-        this.props = defaultProps;
-    }
-    Options.prototype.setProps = function (optionalProps) {
-        this.props = __assign(__assign({}, this.props), optionalProps);
-    };
-    Options.prototype.getProps = function () {
-        return this.props;
-    };
-    return Options;
-}());
-exports.options = new Options();
-
-
-/***/ }),
-
-/***/ 928:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.validateEmail = exports.renderSVG = exports.createRef = exports.getArrayOfElements = exports.isNodeList = exports.isElement = exports.arrayFrom = exports.isType = void 0;
-function isType(value, type) {
-    var str = {}.toString.call(value);
-    return str.indexOf('[object') === 0 && str.indexOf(type + "]") > -1;
-}
-exports.isType = isType;
-function arrayFrom(value) {
-    return [].slice.call(value);
-}
-exports.arrayFrom = arrayFrom;
-function isElement(value) {
-    return ['Element', 'Fragment'].some(function (type) { return isType(value, type); });
-}
-exports.isElement = isElement;
-function isNodeList(value) {
-    return isType(value, 'NodeList');
-}
-exports.isNodeList = isNodeList;
-function getArrayOfElements(value) {
-    if (isElement(value)) {
-        return [value];
-    }
-    if (isNodeList(value)) {
-        return arrayFrom(value);
-    }
-    if (Array.isArray(value)) {
-        return value;
-    }
-    return arrayFrom(document.querySelectorAll(value));
-}
-exports.getArrayOfElements = getArrayOfElements;
-function createRef(initialValue) {
-    return {
-        current: initialValue,
-    };
-}
-exports.createRef = createRef;
-function renderSVG(xmlString) {
-    var doc = new DOMParser().parseFromString(xmlString, 'application/xml');
-    return doc.documentElement;
-}
-exports.renderSVG = renderSVG;
-function validateEmail(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-}
-exports.validateEmail = validateEmail;
-
-
 /***/ })
 
 /******/ 	});
@@ -1023,7 +498,7 @@ exports.validateEmail = validateEmail;
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -1059,43 +534,541 @@ exports.validateEmail = validateEmail;
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-var exports = __webpack_exports__;
-var __webpack_unused_export__;
 
-__webpack_unused_export__ = ({ value: true });
-var components_1 = __webpack_require__(740);
-var utils_1 = __webpack_require__(928);
-function MeiMei(targets, optionalProps) {
-    var elements = utils_1.getArrayOfElements(targets);
-    components_1.options.setProps(optionalProps);
-    var instances = elements &&
-        elements.reduce(function (acc, element) {
-            var instance = element && new components_1.CreateMeiMei(element);
-            if (instance) {
-                acc.push(instance);
-            }
-            return acc;
-        }, []);
-    return instances;
+;// CONCATENATED MODULE: ./src/components/optionalProps/optionalProps.ts
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var defaultProps = {
+  placeholder: 'add more people...' // onAddEntry: () => console.log('add'),
+  // onRemoveEntry: () => console.log('remove'),
+
+};
+
+var Options = /*#__PURE__*/function () {
+  function Options() {
+    _classCallCheck(this, Options);
+
+    _defineProperty(this, "props", void 0);
+
+    this.props = defaultProps;
+  }
+
+  _createClass(Options, [{
+    key: "setProps",
+    value: function setProps(optionalProps) {
+      this.props = _objectSpread(_objectSpread({}, this.props), optionalProps);
+    }
+  }, {
+    key: "getProps",
+    value: function getProps() {
+      return this.props;
+    }
+  }]);
+
+  return Options;
+}();
+
+var options = new Options();
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
+var injectStylesIntoStyleTag = __webpack_require__(379);
+var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/components/box/box.styles.css
+var box_styles = __webpack_require__(65);
+;// CONCATENATED MODULE: ./src/components/box/box.styles.css
+
+            
+
+var box_styles_options = {};
+
+box_styles_options.insert = "head";
+box_styles_options.singleton = false;
+
+var update = injectStylesIntoStyleTag_default()(box_styles/* default */.Z, box_styles_options);
+
+
+
+/* harmony default export */ const box_box_styles = (box_styles/* default.locals */.Z.locals || {});
+;// CONCATENATED MODULE: ./src/components/box/box.ts
+function box_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function box_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function box_createClass(Constructor, protoProps, staticProps) { if (protoProps) box_defineProperties(Constructor.prototype, protoProps); if (staticProps) box_defineProperties(Constructor, staticProps); return Constructor; }
+
+function box_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+var Box = /*#__PURE__*/function () {
+  function Box() {
+    box_classCallCheck(this, Box);
+
+    box_defineProperty(this, "ref", void 0);
+
+    var optionalProps = options.getProps();
+    var theme = optionalProps.theme && optionalProps.theme.box ? optionalProps.theme.box : box_box_styles.box;
+    this.ref = null;
+    this.render(theme);
+  }
+
+  box_createClass(Box, [{
+    key: "render",
+    value: function render(theme) {
+      var markup = Box.createMarkup(theme);
+      this.ref = markup;
+      return markup;
+    }
+  }], [{
+    key: "createMarkup",
+    value: function createMarkup(theme) {
+      var el = document.createElement('div');
+      el.classList.add(theme);
+      return el;
+    }
+  }]);
+
+  return Box;
+}();
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/components/input/input.styles.css
+var input_styles = __webpack_require__(792);
+;// CONCATENATED MODULE: ./src/components/input/input.styles.css
+
+            
+
+var input_styles_options = {};
+
+input_styles_options.insert = "head";
+input_styles_options.singleton = false;
+
+var input_styles_update = injectStylesIntoStyleTag_default()(input_styles/* default */.Z, input_styles_options);
+
+
+
+/* harmony default export */ const input_input_styles = (input_styles/* default.locals */.Z.locals || {});
+;// CONCATENATED MODULE: ./src/components/input/input.ts
+function input_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function input_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function input_createClass(Constructor, protoProps, staticProps) { if (protoProps) input_defineProperties(Constructor.prototype, protoProps); if (staticProps) input_defineProperties(Constructor, staticProps); return Constructor; }
+
+function input_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+var Input = /*#__PURE__*/function () {
+  function Input() {
+    input_classCallCheck(this, Input);
+
+    input_defineProperty(this, "ref", void 0);
+
+    input_defineProperty(this, "props", void 0);
+
+    var optionalProps = options.getProps();
+    var theme = optionalProps.theme && optionalProps.theme.input ? optionalProps.theme.input : input_input_styles.input;
+    this.ref = null;
+    this.props = {
+      placeholder: optionalProps.placeholder,
+      theme: theme
+    };
+    this.render();
+  }
+
+  input_createClass(Input, [{
+    key: "createMarkup",
+    value: function createMarkup() {
+      var el = document.createElement('input');
+      var placeholder = this.props.placeholder || 'add more people...';
+      el.classList.add(this.props.theme);
+      el.setAttribute('type', 'email');
+      el.setAttribute('placeholder', placeholder);
+      return el;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var markup = this.createMarkup();
+      this.ref = markup;
+    }
+  }]);
+
+  return Input;
+}();
+;// CONCATENATED MODULE: ./src/utils/index.ts
+function isType(value, type) {
+  var str = {}.toString.call(value);
+  return str.indexOf('[object') === 0 && str.indexOf("".concat(type, "]")) > -1;
 }
-window.MeiMei = MeiMei;
+function arrayFrom(value) {
+  return [].slice.call(value);
+}
+function isElement(value) {
+  return ['Element', 'Fragment'].some(function (type) {
+    return isType(value, type);
+  });
+}
+function isNodeList(value) {
+  return isType(value, 'NodeList');
+}
+function getArrayOfElements(value) {
+  if (isElement(value)) {
+    return [value];
+  }
 
+  if (isNodeList(value)) {
+    return arrayFrom(value);
+  }
+
+  if (Array.isArray(value)) {
+    return value;
+  }
+
+  return arrayFrom(document.querySelectorAll(value));
+}
+function createRef(initialValue) {
+  return {
+    current: initialValue
+  };
+}
+function renderSVG(xmlString) {
+  var doc = new DOMParser().parseFromString(xmlString, 'application/xml');
+  return doc.documentElement;
+}
+function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/components/chip/chip.styles.css
+var chip_styles = __webpack_require__(919);
+;// CONCATENATED MODULE: ./src/components/chip/chip.styles.css
+
+            
+
+var chip_styles_options = {};
+
+chip_styles_options.insert = "head";
+chip_styles_options.singleton = false;
+
+var chip_styles_update = injectStylesIntoStyleTag_default()(chip_styles/* default */.Z, chip_styles_options);
+
+
+
+/* harmony default export */ const chip_chip_styles = (chip_styles/* default.locals */.Z.locals || {});
+// EXTERNAL MODULE: ./src/components/chip/cross.svg
+var cross = __webpack_require__(402);
+var cross_default = /*#__PURE__*/__webpack_require__.n(cross);
+;// CONCATENATED MODULE: ./src/components/chip/chip.ts
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function chip_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function chip_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function chip_createClass(Constructor, protoProps, staticProps) { if (protoProps) chip_defineProperties(Constructor.prototype, protoProps); if (staticProps) chip_defineProperties(Constructor, staticProps); return Constructor; }
+
+function chip_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+var Chip = /*#__PURE__*/function () {
+  function Chip(text, isValidEmail, remove) {
+    chip_classCallCheck(this, Chip);
+
+    chip_defineProperty(this, "ref", void 0);
+
+    chip_defineProperty(this, "props", void 0);
+
+    var optionalProps = options.getProps();
+    var themeChip = [optionalProps.theme && optionalProps.theme.chip ? optionalProps.theme.chip : chip_chip_styles.chip];
+    var themeCross = optionalProps.theme && optionalProps.theme.cross ? optionalProps.theme.cross : chip_chip_styles.cross;
+
+    if (!isValidEmail) {
+      themeChip.push(optionalProps.theme && optionalProps.theme.chipInvalid ? optionalProps.theme.chipInvalid : chip_chip_styles.chipInvalid);
+    }
+
+    this.ref = null;
+    this.props = {
+      text: text,
+      remove: remove,
+      themeChip: themeChip,
+      themeCross: themeCross
+    };
+    this.render();
+  }
+
+  chip_createClass(Chip, [{
+    key: "createMarkup",
+    value: function createMarkup() {
+      var _el$classList;
+
+      var props = this.props;
+      var themeChip = props.themeChip,
+          themeCross = props.themeCross,
+          text = props.text;
+      var el = document.createElement('div');
+      var content = document.createTextNode(text);
+      var icon = renderSVG((cross_default()));
+
+      (_el$classList = el.classList).add.apply(_el$classList, _toConsumableArray(themeChip));
+
+      el.setAttribute('role', 'button');
+      el.setAttribute('tabindex', '-1');
+      el.append(content);
+      icon.classList.add(themeCross);
+      el.append(icon);
+      return {
+        el: el,
+        icon: icon
+      };
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var markup = this.createMarkup();
+      this.ref = markup.el;
+      this.bindEvents(markup.icon);
+    }
+  }, {
+    key: "bindEvents",
+    value: function bindEvents(target) {
+      var _this = this;
+
+      var props = this.props;
+      var remove = props.remove;
+
+      if (this.ref && remove) {
+        target.addEventListener('click', function () {
+          return remove(_this.ref);
+        });
+      }
+    }
+  }]);
+
+  return Chip;
+}();
+;// CONCATENATED MODULE: ./src/components/createMeiMei/createMeiMei.ts
+function createMeiMei_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function createMeiMei_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function createMeiMei_createClass(Constructor, protoProps, staticProps) { if (protoProps) createMeiMei_defineProperties(Constructor.prototype, protoProps); if (staticProps) createMeiMei_defineProperties(Constructor, staticProps); return Constructor; }
+
+function createMeiMei_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+var CreateMeiMei = /*#__PURE__*/function () {
+  function CreateMeiMei(target) {
+    createMeiMei_classCallCheck(this, CreateMeiMei);
+
+    createMeiMei_defineProperty(this, "ref", void 0);
+
+    createMeiMei_defineProperty(this, "inputFieldRef", void 0);
+
+    createMeiMei_defineProperty(this, "optionalProps", void 0);
+
+    createMeiMei_defineProperty(this, "entryList", void 0);
+
+    createMeiMei_defineProperty(this, "remove", void 0);
+
+    createMeiMei_defineProperty(this, "add", void 0);
+
+    this.ref = null;
+    this.inputFieldRef = null;
+    this.optionalProps = options.getProps();
+    this.entryList = [];
+    this.remove = this.removeEntry.bind(this);
+    this.add = this.addEntry.bind(this);
+    this.render(target);
+  }
+
+  createMeiMei_createClass(CreateMeiMei, [{
+    key: "render",
+    value: function render(target) {
+      var box = new Box();
+      var inputField = new Input();
+
+      if (box.ref && inputField.ref) {
+        target.appendChild(box.ref);
+        box.ref.appendChild(inputField.ref);
+        this.ref = box.ref;
+        this.inputFieldRef = inputField.ref;
+        this.bindEvents();
+      }
+    }
+  }, {
+    key: "addEntry",
+    value: function addEntry(value) {
+      if (!value) return;
+      var isValidEmail = validateEmail(value);
+      var emailChip = new Chip(value, isValidEmail, this.remove);
+
+      if (emailChip.ref && this.ref && this.inputFieldRef) {
+        // add new entry before input field
+        this.ref.insertBefore(emailChip.ref, this.inputFieldRef); // add new entry to entryList
+
+        this.entryList.push({
+          entry: emailChip.ref,
+          isValidEmail: isValidEmail,
+          text: value
+        }); // Scroll wrapping box to bottom when max-height is reached
+
+        this.ref.scrollTop = this.ref.scrollHeight; // clear input field after adding entries
+
+        this.inputFieldRef.value = ''; // run optional function
+
+        return this.optionalProps && this.optionalProps.onAddEntry && this.optionalProps.onAddEntry();
+      }
+    }
+  }, {
+    key: "removeEntry",
+    value: function removeEntry(target) {
+      if (target) {
+        // remove entry from EntryList
+        var newEntryList = this.entryList.filter(function (entry) {
+          return entry.entry !== target;
+        });
+        this.entryList = newEntryList; // remove target from box
+
+        target.remove(); // run optional function
+
+        return this.optionalProps && this.optionalProps.onRemoveEntry && this.optionalProps.onRemoveEntry();
+      }
+    }
+  }, {
+    key: "bindEvents",
+    value: function bindEvents() {
+      var _this = this;
+
+      var ref = this.ref,
+          inputFieldRef = this.inputFieldRef;
+
+      if (ref) {
+        ref.addEventListener('click', function (e) {
+          return _this.handleClick(e);
+        });
+      }
+
+      if (inputFieldRef) {
+        inputFieldRef.addEventListener('keypress', function (e) {
+          return _this.handleKeyPress(e);
+        });
+        inputFieldRef.addEventListener('keydown', function (e) {
+          return _this.handleKeyDown(e);
+        });
+        inputFieldRef.addEventListener('focusout', function (e) {
+          return _this.handleFocusOut(e);
+        });
+        inputFieldRef.addEventListener('paste', function (e) {
+          return _this.handlePaste(e);
+        });
+      }
+    }
+  }, {
+    key: "handleClick",
+    value: function handleClick(e) {
+      e.preventDefault();
+
+      if (e.target === this.ref && this.inputFieldRef) {
+        this.inputFieldRef.focus();
+      }
+    }
+  }, {
+    key: "handleKeyPress",
+    value: function handleKeyPress(e) {
+      if (e.code === 'Enter' || e.code === 'Comma') {
+        e.preventDefault();
+        this.addEntry(e.target.value);
+      }
+    }
+  }, {
+    key: "handleKeyDown",
+    value: function handleKeyDown(e) {
+      if (e.code === 'Backspace' && e.target.value === '' && this.entryList.length > 0) {
+        e.preventDefault();
+        var lastEntry = this.entryList[this.entryList.length - 1].entry;
+        this.removeEntry(lastEntry);
+      }
+    }
+  }, {
+    key: "handleFocusOut",
+    value: function handleFocusOut(e) {
+      e.preventDefault();
+      this.addEntry(e.target.value);
+    }
+  }, {
+    key: "handlePaste",
+    value: function handlePaste(e) {
+      var _this2 = this;
+
+      // Stop data actually being pasted into input
+      e.stopPropagation();
+      e.preventDefault(); // Get pasted data via clipboard API
+
+      var clipboardData = e.clipboardData || window.clipboardData;
+      var pastedData = clipboardData.getData('Text'); // Split pasted data in chunks on comma and space
+
+      var chunks = pastedData.split(/[ ,]+/).filter(function (item) {
+        return item;
+      }); // Add new entries
+
+      if (chunks && chunks.length > 0) {
+        chunks.forEach(function (chunk) {
+          return _this2.addEntry(chunk);
+        });
+      }
+    }
+  }]);
+
+  return CreateMeiMei;
+}();
+;// CONCATENATED MODULE: ./src/index.ts
+
+
+
+function MeiMei(targets, optionalProps) {
+  var elements = getArrayOfElements(targets);
+  options.setProps(optionalProps);
+  var instances = elements && elements.reduce(function (acc, element) {
+    var instance = element && new CreateMeiMei(element);
+
+    if (instance) {
+      acc.push(instance);
+    }
+
+    return acc;
+  }, []);
+  return instances;
+}
+
+window.MeiMei = MeiMei;
 })();
 
 /******/ })()

@@ -1,1 +1,0 @@
-export { CreateMeiMei } from './createMeiMei';
