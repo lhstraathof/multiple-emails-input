@@ -1,10 +1,10 @@
 /******/ (function() { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
@@ -27,7 +27,6 @@ ___CSS_LOADER_EXPORT___.locals = {
 /***/ 919:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
@@ -53,7 +52,6 @@ ___CSS_LOADER_EXPORT___.locals = {
 /***/ 792:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
@@ -77,7 +75,6 @@ ___CSS_LOADER_EXPORT___.locals = {
 /***/ 645:
 /***/ (function(module) {
 
-"use strict";
 
 
 /*
@@ -150,7 +147,6 @@ module.exports = function (cssWithMappingToString) {
 /***/ 15:
 /***/ (function(module) {
 
-"use strict";
 
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -189,7 +185,6 @@ module.exports = function cssWithMappingToString(item) {
 /***/ 716:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(379);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -213,7 +208,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /***/ 177:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(379);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -237,7 +231,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /***/ 839:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(379);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -261,7 +254,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /***/ 379:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-"use strict";
 
 
 var isOldIE = function isOldIE() {
@@ -534,17 +526,9 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ 402:
-/***/ (function(module) {
-
-module.exports = "<svg viewBox=\"0 0 8 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 0.8L7.2 0L4 3.2L0.8 0L0 0.8L3.2 4L0 7.2L0.8 8L4 4.8L7.2 8L8 7.2L4.8 4L8 0.8Z\" fill=\"#050038\"></path></svg>"
-
-/***/ }),
-
 /***/ 964:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -580,7 +564,6 @@ exports.Box = Box;
 /***/ 993:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Box = void 0;
@@ -593,7 +576,6 @@ Object.defineProperty(exports, "Box", ({ enumerable: true, get: function () { re
 /***/ 33:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -601,9 +583,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Chip = void 0;
 var components_1 = __webpack_require__(740);
-var utils_1 = __webpack_require__(928);
 var chip_styles_css_1 = __importDefault(__webpack_require__(177));
-var cross_svg_1 = __importDefault(__webpack_require__(402));
+var crossIcon_1 = __webpack_require__(880);
 var Chip = /** @class */ (function () {
     function Chip(text, isValidEmail, remove) {
         var optionalProps = components_1.options.getProps();
@@ -627,7 +608,7 @@ var Chip = /** @class */ (function () {
         var themeChip = props.themeChip, themeCross = props.themeCross, text = props.text;
         var el = document.createElement('div');
         var content = document.createTextNode(text);
-        var icon = utils_1.renderSVG(cross_svg_1.default);
+        var icon = crossIcon_1.CrossIcon();
         (_a = el.classList).add.apply(_a, themeChip);
         el.setAttribute('role', 'button');
         el.setAttribute('tabindex', '-1');
@@ -656,10 +637,35 @@ exports.Chip = Chip;
 
 /***/ }),
 
+/***/ 880:
+/***/ (function(__unused_webpack_module, exports) {
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.CrossIcon = void 0;
+var CrossIcon = function () {
+    var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    var svgNS = svg.namespaceURI;
+    var path = document.createElementNS(svgNS, 'path');
+    svg.setAttribute('width', '8');
+    svg.setAttribute('height', '8');
+    svg.setAttribute('viewBox', '0 0 8 8');
+    svg.setAttribute('fill', 'none');
+    path.setAttribute('fill-rule', 'evenodd');
+    path.setAttribute('clip-rule', 'evenodd');
+    path.setAttribute('d', 'M8 0.8L7.2 0L4 3.2L0.8 0L0 0.8L3.2 4L0 7.2L0.8 8L4 4.8L7.2 8L8 7.2L4.8 4L8 0.8Z');
+    path.setAttribute('fill', '#050038');
+    svg.appendChild(path);
+    return svg;
+};
+exports.CrossIcon = CrossIcon;
+
+
+/***/ }),
+
 /***/ 984:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Chip = void 0;
@@ -672,7 +678,6 @@ Object.defineProperty(exports, "Chip", ({ enumerable: true, get: function () { r
 /***/ 647:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CreateMeiMei = void 0;
@@ -789,7 +794,6 @@ exports.CreateMeiMei = CreateMeiMei;
 /***/ 959:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CreateMeiMei = void 0;
@@ -802,7 +806,6 @@ Object.defineProperty(exports, "CreateMeiMei", ({ enumerable: true, get: functio
 /***/ 740:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Input = exports.Chip = exports.Box = exports.CreateMeiMei = exports.options = void 0;
@@ -823,7 +826,6 @@ Object.defineProperty(exports, "Input", ({ enumerable: true, get: function () { 
 /***/ 547:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Input = void 0;
@@ -836,7 +838,6 @@ Object.defineProperty(exports, "Input", ({ enumerable: true, get: function () { 
 /***/ 69:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -878,7 +879,6 @@ exports.Input = Input;
 /***/ 932:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.options = void 0;
@@ -891,7 +891,6 @@ Object.defineProperty(exports, "options", ({ enumerable: true, get: function () 
 /***/ 903:
 /***/ (function(__unused_webpack_module, exports) {
 
-"use strict";
 
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
@@ -931,7 +930,6 @@ exports.options = new Options();
 /***/ 928:
 /***/ (function(__unused_webpack_module, exports) {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.validateEmail = exports.renderSVG = exports.createRef = exports.getArrayOfElements = exports.isNodeList = exports.isElement = exports.arrayFrom = exports.isType = void 0;
@@ -1054,9 +1052,8 @@ exports.validateEmail = validateEmail;
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 !function() {
-"use strict";
 var exports = __webpack_exports__;
 var __webpack_unused_export__;
 

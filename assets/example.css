@@ -62,6 +62,7 @@ button {
   transition: all 0.2s;
   outline: 0;
   border: none;
+  cursor: pointer;
 }
 button:hover {
   background-color: #455bed;

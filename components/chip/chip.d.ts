@@ -5,7 +5,7 @@ export declare class Chip {
     constructor(text: string, isValidEmail: boolean, remove: RefFunction);
     createMarkup(): {
         el: HTMLDivElement;
-        icon: HTMLElement;
+        icon: SVGSVGElement;
     };
     render(): void;
     bindEvents(target: SingleTarget): void;
