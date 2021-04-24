@@ -7,5 +7,4 @@ export declare function getArrayOfElements(value: Targets): Element[];
 export declare function createRef(initialValue: null | SingleTarget): {
     current: Element | null;
 };
-export declare function renderSVG(xmlString: string): HTMLElement;
 export declare function validateEmail(email: string): boolean;

@@ -62,7 +62,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".NuANop2Bntr0bO_BYNv0b {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 24px;\n    height: 24px;\n    outline: 0;\n    margin: 2px 4px;\n    padding: 0;\n    border: none;\n    -webkit-box-flex: 1;\n        -ms-flex: 1;\n            flex: 1;\n}\n\n/* hide cross from ie11 */\n.NuANop2Bntr0bO_BYNv0b::-ms-clear {\n    display: none;\n}\n\n::-webkit-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-moz-placeholder {\n    color: #C3C2CF;\n}\n\n:-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}", "",{"version":3,"sources":["webpack://./src/components/input/input.styles.css"],"names":[],"mappings":"AAEA;IACI,sDAAsD;IACtD,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,YAAY;IACZ,UAAU;IACV,eAAe;IACf,UAAU;IACV,YAAY;IACZ,mBAAO;QAAP,WAAO;YAAP,OAAO;AACX;;AAEA,yBAAyB;AACzB;IACI,aAAa;AACjB;;AAEA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');\n\n.input {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 24px;\n    height: 24px;\n    outline: 0;\n    margin: 2px 4px;\n    padding: 0;\n    border: none;\n    flex: 1;\n}\n\n/* hide cross from ie11 */\n.input::-ms-clear {\n    display: none;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".NuANop2Bntr0bO_BYNv0b {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 24px;\n    height: 24px;\n    outline: 0;\n    margin: 2px 4px;\n    padding: 0;\n    border: none;\n    -webkit-box-flex: 1;\n        -ms-flex: 1;\n            flex: 1;\n    min-width: 60px;\n}\n\n/* hide cross from ie11 */\n.NuANop2Bntr0bO_BYNv0b::-ms-clear {\n    display: none;\n}\n\n::-webkit-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-moz-placeholder {\n    color: #C3C2CF;\n}\n\n:-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}", "",{"version":3,"sources":["webpack://./src/components/input/input.styles.css"],"names":[],"mappings":"AAEA;IACI,sDAAsD;IACtD,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,YAAY;IACZ,UAAU;IACV,eAAe;IACf,UAAU;IACV,YAAY;IACZ,mBAAO;QAAP,WAAO;YAAP,OAAO;IACP,eAAe;AACnB;;AAEA,yBAAyB;AACzB;IACI,aAAa;AACjB;;AAEA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');\n\n.input {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 24px;\n    height: 24px;\n    outline: 0;\n    margin: 2px 4px;\n    padding: 0;\n    border: none;\n    flex: 1;\n    min-width: 60px;\n}\n\n/* hide cross from ie11 */\n.input::-ms-clear {\n    display: none;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"input": "NuANop2Bntr0bO_BYNv0b"
@@ -588,10 +588,12 @@ var crossIcon_1 = __webpack_require__(880);
 var Chip = /** @class */ (function () {
     function Chip(text, isValidEmail, remove) {
         var optionalProps = components_1.options.getProps();
-        var themeChip = [optionalProps.theme && optionalProps.theme.chip ? optionalProps.theme.chip : chip_styles_css_1.default.chip];
+        var themeChip = optionalProps.theme && optionalProps.theme.chip ? optionalProps.theme.chip : chip_styles_css_1.default.chip;
         var themeCross = optionalProps.theme && optionalProps.theme.cross ? optionalProps.theme.cross : chip_styles_css_1.default.cross;
         if (!isValidEmail) {
-            themeChip.push(optionalProps.theme && optionalProps.theme.chipInvalid ? optionalProps.theme.chipInvalid : chip_styles_css_1.default.chipInvalid);
+            var validTheme = optionalProps.theme && optionalProps.theme.chipInvalid ? optionalProps.theme.chipInvalid : chip_styles_css_1.default.chipInvalid;
+            themeChip = themeChip + " " + validTheme;
+            ;
         }
         this.ref = null;
         this.props = {
@@ -603,13 +605,12 @@ var Chip = /** @class */ (function () {
         this.render();
     }
     Chip.prototype.createMarkup = function () {
-        var _a;
         var props = this.props;
         var themeChip = props.themeChip, themeCross = props.themeCross, text = props.text;
         var el = document.createElement('div');
         var content = document.createTextNode(text);
         var icon = crossIcon_1.CrossIcon();
-        (_a = el.classList).add.apply(_a, themeChip);
+        el.setAttribute('class', themeChip);
         el.setAttribute('role', 'button');
         el.setAttribute('tabindex', '-1');
         el.appendChild(content);
@@ -933,7 +934,7 @@ exports.options = new Options();
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.validateEmail = exports.renderSVG = exports.createRef = exports.getArrayOfElements = exports.isNodeList = exports.isElement = exports.arrayFrom = exports.isType = void 0;
+exports.validateEmail = exports.createRef = exports.getArrayOfElements = exports.isNodeList = exports.isElement = exports.arrayFrom = exports.isType = void 0;
 function isType(value, type) {
     var str = {}.toString.call(value);
     return str.indexOf('[object') === 0 && str.indexOf(type + "]") > -1;
@@ -970,11 +971,6 @@ function createRef(initialValue) {
     };
 }
 exports.createRef = createRef;
-function renderSVG(xmlString) {
-    var doc = new DOMParser().parseFromString(xmlString, 'application/xml');
-    return doc.documentElement;
-}
-exports.renderSVG = renderSVG;
 function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
