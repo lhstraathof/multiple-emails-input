@@ -613,7 +613,8 @@ var Chip = /** @class */ (function () {
         el.setAttribute('role', 'button');
         el.setAttribute('tabindex', '-1');
         el.appendChild(content);
-        icon.classList.add(themeCross);
+        // ie11 classList does not work on svg
+        icon.setAttribute('class', themeCross);
         el.appendChild(icon);
         return { el: el, icon: icon };
     };
