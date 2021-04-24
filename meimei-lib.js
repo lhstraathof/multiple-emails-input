@@ -631,9 +631,9 @@ var Chip = /** @class */ (function () {
         (_a = el.classList).add.apply(_a, themeChip);
         el.setAttribute('role', 'button');
         el.setAttribute('tabindex', '-1');
-        el.append(content);
+        el.appendChild(content);
         icon.classList.add(themeCross);
-        el.append(icon);
+        el.appendChild(icon);
         return { el: el, icon: icon };
     };
     Chip.prototype.render = function () {
