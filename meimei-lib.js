@@ -754,7 +754,7 @@ var CreateMeiMei = /** @class */ (function () {
         }
     };
     CreateMeiMei.prototype.handleKeyPress = function (e) {
-        if (e.code === 'Enter' || e.code === 'Comma') {
+        if (e.keyCode === 13 || e.keyCode === 44) {
             e.preventDefault();
             this.addEntry(e.target.value);
         }
