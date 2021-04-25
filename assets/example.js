@@ -23,7 +23,7 @@ function makeEmail() {
 }
 
 function addRandomEmail(target) {
-  if (target && target.add) {
+  if (target && target.addEntry) {
     var randomEmail = makeEmail();
     target.addEntry(randomEmail);
   }

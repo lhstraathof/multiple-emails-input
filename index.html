@@ -78,6 +78,7 @@
       var addE2 = document.getElementById('addE2');
       var getE2 = document.getElementById('getE2');
       addE1.addEventListener('click', function () {
+        console.log('click')
         addRandomEmail(emailsInput1[0]);
       });
       addE2.addEventListener('click', function () {
@@ -89,6 +90,8 @@
       getE2.addEventListener('click', function () {
         alert(countEmails(emailsInput2[0], true));
       });
+
+      console.log(emailsInput1)
     </script>
   </body>
 </html>
