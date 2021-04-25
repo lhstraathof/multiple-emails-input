@@ -2,7 +2,7 @@ import { ChipProps, RefFunction, SingleTarget, Ref } from '../../types';
 export declare class Chip {
     ref: Ref;
     props: ChipProps;
-    constructor(text: string, isValidEmail: boolean, remove: RefFunction);
+    constructor(text: string, isValidEmail: boolean, removeEntry: RefFunction);
     createMarkup(): {
         el: HTMLDivElement;
         icon: SVGSVGElement;

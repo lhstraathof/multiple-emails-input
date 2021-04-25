@@ -62,7 +62,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".NuANop2Bntr0bO_BYNv0b {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 24px;\n    height: 24px;\n    outline: 0;\n    margin: 2px 4px;\n    padding: 0;\n    border: none;\n    -webkit-box-flex: 1;\n        -ms-flex: 1;\n            flex: 1;\n    min-width: 60px;\n}\n\n/* hide cross from ie11 */\n.NuANop2Bntr0bO_BYNv0b::-ms-clear {\n    display: none;\n}\n\n::-webkit-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-moz-placeholder {\n    color: #C3C2CF;\n}\n\n:-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}", "",{"version":3,"sources":["webpack://./src/components/input/input.styles.css"],"names":[],"mappings":"AAEA;IACI,sDAAsD;IACtD,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,YAAY;IACZ,UAAU;IACV,eAAe;IACf,UAAU;IACV,YAAY;IACZ,mBAAO;QAAP,WAAO;YAAP,OAAO;IACP,eAAe;AACnB;;AAEA,yBAAyB;AACzB;IACI,aAAa;AACjB;;AAEA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');\n\n.input {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 24px;\n    height: 24px;\n    outline: 0;\n    margin: 2px 4px;\n    padding: 0;\n    border: none;\n    flex: 1;\n    min-width: 60px;\n}\n\n/* hide cross from ie11 */\n.input::-ms-clear {\n    display: none;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".NuANop2Bntr0bO_BYNv0b {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 20px;\n    height: 20px;\n    outline: 0;\n    padding: 2px 4px;\n    margin: 0;\n    border: none;\n    -webkit-box-flex: 1;\n        -ms-flex: 1;\n            flex: 1;\n    min-width: 124px;\n}\n\n/* hide cross from ie11 */\n.NuANop2Bntr0bO_BYNv0b::-ms-clear {\n    display: none;\n}\n\n::-webkit-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-moz-placeholder {\n    color: #C3C2CF;\n}\n\n:-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::-ms-input-placeholder {\n    color: #C3C2CF;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}", "",{"version":3,"sources":["webpack://./src/components/input/input.styles.css"],"names":[],"mappings":"AAEA;IACI,sDAAsD;IACtD,cAAc;IACd,eAAe;IACf,iBAAiB;IACjB,YAAY;IACZ,UAAU;IACV,gBAAgB;IAChB,SAAS;IACT,YAAY;IACZ,mBAAO;QAAP,WAAO;YAAP,OAAO;IACP,gBAAgB;AACpB;;AAEA,yBAAyB;AACzB;IACI,aAAa;AACjB;;AAEA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB;;AAFA;IACI,cAAc;AAClB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');\n\n.input {\n    font-family: 'Open Sans', Arial, Helvetica, sans-serif;\n    color: #050038;\n    font-size: 14px;\n    line-height: 20px;\n    height: 20px;\n    outline: 0;\n    padding: 2px 4px;\n    margin: 0;\n    border: none;\n    flex: 1;\n    min-width: 124px;\n}\n\n/* hide cross from ie11 */\n.input::-ms-clear {\n    display: none;\n}\n\n::placeholder {\n    color: #C3C2CF;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"input": "NuANop2Bntr0bO_BYNv0b"
@@ -586,7 +586,7 @@ var components_1 = __webpack_require__(740);
 var chip_styles_css_1 = __importDefault(__webpack_require__(177));
 var crossIcon_1 = __webpack_require__(880);
 var Chip = /** @class */ (function () {
-    function Chip(text, isValidEmail, remove) {
+    function Chip(text, isValidEmail, removeEntry) {
         var optionalProps = components_1.options.getProps();
         var themeChip = optionalProps.theme && optionalProps.theme.chip ? optionalProps.theme.chip : chip_styles_css_1.default.chip;
         var themeCross = optionalProps.theme && optionalProps.theme.cross ? optionalProps.theme.cross : chip_styles_css_1.default.cross;
@@ -598,7 +598,7 @@ var Chip = /** @class */ (function () {
         this.ref = null;
         this.props = {
             text: text,
-            remove: remove,
+            removeEntry: removeEntry,
             themeChip: themeChip,
             themeCross: themeCross,
         };
@@ -627,9 +627,9 @@ var Chip = /** @class */ (function () {
     Chip.prototype.bindEvents = function (target) {
         var _this = this;
         var props = this.props;
-        var remove = props.remove;
-        if (this.ref && remove) {
-            target.addEventListener('click', function () { return remove(_this.ref); });
+        var removeEntry = props.removeEntry;
+        if (this.ref && removeEntry) {
+            target.addEventListener('click', function () { return removeEntry(_this.ref); });
         }
     };
     return Chip;
@@ -691,8 +691,8 @@ var CreateMeiMei = /** @class */ (function () {
         this.inputFieldRef = null;
         this.optionalProps = components_1.options.getProps();
         this.entryList = [];
-        this.remove = this.removeEntry.bind(this);
-        this.add = this.addEntry.bind(this);
+        this.removeEntry = this.removeOneEntry.bind(this);
+        this.addEntry = this.addOneEntry.bind(this);
         this.render(target);
     }
     CreateMeiMei.prototype.render = function (target) {
@@ -706,11 +706,11 @@ var CreateMeiMei = /** @class */ (function () {
             this.bindEvents();
         }
     };
-    CreateMeiMei.prototype.addEntry = function (value) {
+    CreateMeiMei.prototype.addOneEntry = function (value) {
         if (!value)
             return;
         var isValidEmail = utils_1.validateEmail(value);
-        var emailChip = new components_1.Chip(value, isValidEmail, this.remove);
+        var emailChip = new components_1.Chip(value, isValidEmail, this.removeEntry);
         if (emailChip.ref && this.ref && this.inputFieldRef) {
             // add new entry before input field
             this.ref.insertBefore(emailChip.ref, this.inputFieldRef);
@@ -724,7 +724,7 @@ var CreateMeiMei = /** @class */ (function () {
             return this.optionalProps && this.optionalProps.onAddEntry && this.optionalProps.onAddEntry();
         }
     };
-    CreateMeiMei.prototype.removeEntry = function (target) {
+    CreateMeiMei.prototype.removeOneEntry = function (target) {
         if (target) {
             // remove entry from EntryList
             var newEntryList = this.entryList.filter(function (entry) { return entry.entry !== target; });

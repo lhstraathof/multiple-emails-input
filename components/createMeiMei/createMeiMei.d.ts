@@ -9,12 +9,12 @@ export declare class CreateMeiMei {
     inputFieldRef: Ref;
     optionalProps: Partial<Props>;
     entryList: EntryList[];
-    remove: RefFunction;
-    add: StringFunction;
+    removeEntry: RefFunction;
+    addEntry: StringFunction;
     constructor(target: SingleTarget);
     render(target: SingleTarget): void;
-    addEntry(value: string): void;
-    removeEntry(target: Ref): void;
+    addOneEntry(value: string): void;
+    removeOneEntry(target: Ref): void;
     bindEvents(): void;
     handleClick(e: Event): void;
     handleKeyPress(e: KeyboardEvent): void;
