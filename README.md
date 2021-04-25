@@ -126,12 +126,12 @@ After adding MeiMei to your page and assigning it to a variable, you get access 
 
 **Name**|**Type**|**Description**
 -----|-----|-----
-add|function|Manually add an entry. This function accepts a string to add as entry to MeiMei
+addEntry|function|Manually add an entry. This function accepts a string to add as entry to MeiMei
 entryList|array|Array of entries active in the MeiMei element
 inputFieldRef|element|Reference to the input field of MeiMei
 optionalProps|object|The optional props you may have provided
 ref|element|The box element of MeiMei
-remove|function|Manually remove an entry. This function accepts a ref from to the entryList (see API) and removes it from MeiMei
+removeEntry|function|Manually remove an entry. This function accepts a ref from to the entryList (see API) and removes it from MeiMei
 
 <!-- USAGE EXAMPLES -->
 
@@ -166,16 +166,17 @@ To see the live demo, go to [https://lhstraathof.github.io/multiple-emails-input
 
 As this library is the result of a code challenge, there is still lots to be done:
 
-- Proper cross browser testing
+- Proper cross browser testing (mobile)
 - Make library available via NPM
 - Update webpack config to export to UMD, es-module, etc.
 - Deploy to CDN
-- Add unit-tests
+- Add unit-tests additional
 - Optimize performance
-- Add life-cycle methods and extend API
+- Add life-cycle methods and extend API (i.e. destroy MeiMei on target)
 - Add more theme's
 - Optimize sanitization
 - Optimize security
+- Highlight entry when user presses backspace on empty input before deleting prev. entry
 
 <!-- LICENSE -->
 

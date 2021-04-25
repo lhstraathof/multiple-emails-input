@@ -2,6 +2,10 @@ import { EntryList, Props, SingleTarget, Ref, RefFunction, StringFunction } from
 import { options, Box, Chip, Input } from '../../components';
 import { validateEmail } from '../../utils';
 
+const backspaceKeyCode = 8;
+const enterKeyCode = 13;
+const commaKeyCode =  44;
+
 declare global {
   interface Window {
     clipboardData: DataTransfer;
@@ -13,16 +17,16 @@ export class CreateMeiMei {
   inputFieldRef: Ref;
   optionalProps: Partial<Props>;
   entryList: EntryList[];
-  remove: RefFunction;
-  add: StringFunction;
+  removeEntry: RefFunction;
+  addEntry: StringFunction;
 
   constructor(target: SingleTarget) {
     this.ref = null;
     this.inputFieldRef = null;
     this.optionalProps = options.getProps();
     this.entryList = [];
-    this.remove = this.removeEntry.bind(this);
-    this.add = this.addEntry.bind(this);
+    this.removeEntry = this.removeOneEntry.bind(this);
+    this.addEntry = this.addOneEntry.bind(this);
     this.render(target);
   }
 
@@ -41,10 +45,10 @@ export class CreateMeiMei {
     }
   }
 
-  addEntry(value: string) {
+  addOneEntry(value: string) {
     if (!value) return;
     const isValidEmail = validateEmail(value);
-    const emailChip = new Chip(value, isValidEmail, this.remove);
+    const emailChip = new Chip(value, isValidEmail, this.removeEntry);
     if (emailChip.ref && this.ref && this.inputFieldRef) {
       // add new entry before input field
       this.ref.insertBefore(emailChip.ref, this.inputFieldRef);
@@ -63,14 +67,14 @@ export class CreateMeiMei {
     }
   }
 
-  removeEntry(target: Ref) {
-    if (target) {
+  removeOneEntry(target: Ref) {
+    if (this.ref && target) {
       // remove entry from EntryList
       const newEntryList = this.entryList.filter((entry) => entry.entry !== target);
       this.entryList = newEntryList;
 
       // remove target from box
-      target.remove();
+      this.ref.removeChild(target);
 
       // run optional function
       return this.optionalProps && this.optionalProps.onRemoveEntry && this.optionalProps.onRemoveEntry();
@@ -99,14 +103,14 @@ export class CreateMeiMei {
   }
 
   handleKeyPress(e: KeyboardEvent) {
-    if (e.code === 'Enter' || e.code === 'Comma') {
+    if (e.keyCode === enterKeyCode || e.keyCode === commaKeyCode) {
       e.preventDefault();
       this.addEntry((e.target as HTMLInputElement).value);
     }
   }
 
   handleKeyDown(e: KeyboardEvent) {
-    if (e.code === 'Backspace' && (e.target as HTMLInputElement).value === '' && this.entryList.length > 0) {
+    if (e.keyCode === backspaceKeyCode && (e.target as HTMLInputElement).value === '' && this.entryList.length > 0) {
       e.preventDefault();
       const lastEntry = this.entryList[this.entryList.length - 1].entry;
       this.removeEntry(lastEntry);

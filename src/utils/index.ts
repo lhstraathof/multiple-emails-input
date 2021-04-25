@@ -39,11 +39,6 @@ export function createRef(initialValue: null | SingleTarget) {
   };
 }
 
-export function renderSVG(xmlString: string) {
-  const doc = new DOMParser().parseFromString(xmlString, 'application/xml');
-  return doc.documentElement;
-}
-
 export function validateEmail(email:string) {
   const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);

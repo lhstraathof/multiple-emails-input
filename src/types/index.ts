@@ -25,8 +25,8 @@ export interface Props {
 
 export interface ChipProps {
   text: string;
-  remove: (target: Ref) => void;
-  themeChip: string[];
+  removeEntry: (target: Ref) => void;
+  themeChip: string;
   themeCross: string;
 }
 

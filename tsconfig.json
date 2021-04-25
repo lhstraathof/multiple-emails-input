@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "lib": ["es2017", "es7", "es6", "dom"],
-    "declaration": true,
+    "lib": ["es5", "dom"],
+    "declaration": false, // TODO: When updating project to deploy to NPM, this will me true for module usage
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,

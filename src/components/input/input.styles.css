@@ -11,6 +11,12 @@
     padding: 0;
     border: none;
     flex: 1;
+    min-width: 124px;
+}
+
+/* hide cross from ie11 */
+.input::-ms-clear {
+    display: none;
 }
 
 ::placeholder {

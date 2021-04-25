@@ -32,6 +32,7 @@ module.exports = {
     filename: '[name].js',
     path: PATHS.bundles,
   },
+  target: 'es5',
   module: {
     rules: [
       {
@@ -54,10 +55,6 @@ module.exports = {
           },
           'postcss-loader',
         ],
-      },
-      {
-        test: /\.svg/,
-        loader: 'svg-inline-loader',
       },
     ],
   },

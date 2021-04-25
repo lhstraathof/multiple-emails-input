@@ -2,8 +2,6 @@ import { Props } from '../../types';
 
 const defaultProps = {
   placeholder: 'add more people...',
-  // onAddEntry: () => console.log('add'),
-  // onRemoveEntry: () => console.log('remove'),
 };
 
 class Options {

@@ -32,8 +32,8 @@
         <div class="box__top">
           <h3>More <strong>MeiMei</strong> on same page</h3>
           <p>
-            This example triggeres a console.log() function on <strong>add</strong> and <strong>remove</strong> through
-            optional properties. See source for config.
+            This example triggers a console.log() function on <strong>add</strong> and <strong>remove</strong> through
+            optional properties. Only counts <strong>valid</strong> emails. See source for config. 
           </p>
           <div class="emails-input2"></div>
         </div>
@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <h3>Mutlple inputs</h3>
+      <h3>Multiple inputs</h3>
       <p>
         It is possible to add multiple MeiMei with the class selector:<br />var inputContainerNode3 =
         document.querySelectorAll('.emails-input3'); <br>var emailsInput3 = MeiMei(inputContainerNode3);
@@ -58,7 +58,7 @@
     <script>
       'use strict';
 
-      var inputContainerNode1 = document.querySelectorAll('.emails-input');
+      var inputContainerNode1 = document.querySelector('.emails-input');
       var emailsInput1 = MeiMei(inputContainerNode1);
       var optionalProps = {
         onAddEntry: function onAddEntry() {
@@ -68,7 +68,8 @@
           console.log('remove');
         },
       };
-      var inputContainerNode2 = document.querySelectorAll('.emails-input2');
+
+      var inputContainerNode2 = document.querySelector('.emails-input2');
       var emailsInput2 = MeiMei(inputContainerNode2, optionalProps);
       var inputContainerNode3 = document.querySelectorAll('.emails-input3');
       var emailsInput3 = MeiMei(inputContainerNode3);
