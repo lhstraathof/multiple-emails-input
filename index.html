@@ -32,8 +32,8 @@
         <div class="box__top">
           <h3>More <strong>MeiMei</strong> on same page</h3>
           <p>
-            This example triggeres a console.log() function on <strong>add</strong> and <strong>remove</strong> through
-            optional properties. See source for config.
+            This example triggers a console.log() function on <strong>add</strong> and <strong>remove</strong> through
+            optional properties. Only counts <strong>valid</strong> emails. See source for config. 
           </p>
           <div class="emails-input2"></div>
         </div>
@@ -58,7 +58,7 @@
     <script>
       'use strict';
 
-      var inputContainerNode1 = document.querySelectorAll('.emails-input');
+      var inputContainerNode1 = document.querySelector('.emails-input');
       var emailsInput1 = MeiMei(inputContainerNode1);
       var optionalProps = {
         onAddEntry: function onAddEntry() {
@@ -69,7 +69,7 @@
         },
       };
 
-      var inputContainerNode2 = document.querySelectorAll('.emails-input2');
+      var inputContainerNode2 = document.querySelector('.emails-input2');
       var emailsInput2 = MeiMei(inputContainerNode2, optionalProps);
       var inputContainerNode3 = document.querySelectorAll('.emails-input3');
       var emailsInput3 = MeiMei(inputContainerNode3);
@@ -78,7 +78,6 @@
       var addE2 = document.getElementById('addE2');
       var getE2 = document.getElementById('getE2');
       addE1.addEventListener('click', function () {
-        console.log('click')
         addRandomEmail(emailsInput1[0]);
       });
       addE2.addEventListener('click', function () {
@@ -90,8 +89,6 @@
       getE2.addEventListener('click', function () {
         alert(countEmails(emailsInput2[0], true));
       });
-
-      console.log(emailsInput1)
     </script>
   </body>
 </html>

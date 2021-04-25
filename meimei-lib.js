@@ -685,6 +685,9 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CreateMeiMei = void 0;
 var components_1 = __webpack_require__(740);
 var utils_1 = __webpack_require__(928);
+var backspaceKeyCode = 8;
+var enterKeyCode = 13;
+var commaKeyCode = 44;
 var CreateMeiMei = /** @class */ (function () {
     function CreateMeiMei(target) {
         this.ref = null;
@@ -755,13 +758,13 @@ var CreateMeiMei = /** @class */ (function () {
         }
     };
     CreateMeiMei.prototype.handleKeyPress = function (e) {
-        if (e.keyCode === 13 || e.keyCode === 44) {
+        if (e.keyCode === enterKeyCode || e.keyCode === commaKeyCode) {
             e.preventDefault();
             this.addEntry(e.target.value);
         }
     };
     CreateMeiMei.prototype.handleKeyDown = function (e) {
-        if (e.code === 'Backspace' && e.target.value === '' && this.entryList.length > 0) {
+        if (e.keyCode === backspaceKeyCode && e.target.value === '' && this.entryList.length > 0) {
             e.preventDefault();
             var lastEntry = this.entryList[this.entryList.length - 1].entry;
             this.removeEntry(lastEntry);
@@ -909,8 +912,6 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.options = void 0;
 var defaultProps = {
     placeholder: 'add more people...',
-    // onAddEntry: () => console.log('add'),
-    // onRemoveEntry: () => console.log('remove'),
 };
 var Options = /** @class */ (function () {
     function Options() {
